@@ -13,6 +13,7 @@
 </head>
 <body>
      <!-- nav -->
+     <!-- everything is based on screen size 100% -->
 
     <nav>
       
@@ -21,7 +22,7 @@
                 Home
                 About Us
                 Shop
-                All Fruits
+                All Fruits.
             </span>
            
     
@@ -50,7 +51,7 @@
 <!-- nav end -->
 
 <!-- banner -->
-    <section class="relative">
+    <section class="laptop:relative tablet:hidden ">
       <div class="carousel w-full relative">
 
         <!-- slider 1 -->
@@ -59,7 +60,7 @@
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide4" class="btn btn-circle">❮</a> 
             <div class="flex-col space-y-24">
-            <h1 class="text-5xl text-center text-amber-900 font-extrabold normal-case ">Exotic tastes at your <br> doorstep</h1>
+            <h1 class="text-5xl text-center text-white font-extrabold normal-case ">Exotic tastes at your <br> doorstep</h1>
             <small class="text-s text-white gap-x-20 place-items-center">We supply highly quality organic products</small><br>
             <button class="btn btn-error text-white text-rem rounded place-items-center mx-32">Shop Now</button>
             </div>
@@ -73,7 +74,7 @@
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" class="btn btn-circle">❮</a>
             <div class="flex-col space-y-24">
-                <h1 class="text-5xl text-center text-amber-900 font-extrabold normal-case ">Exotic tastes at your <br> doorstep</h1>
+                <h1 class="text-5xl text-center text-white font-extrabold normal-case ">Exotic tastes at your <br> doorstep</h1>
                 <small class="text-s text-white gap-x-20 place-items-center">We supply highly quality organic products</small><br>
                 <button class="btn btn-error text-white text-rem rounded place-items-center mx-32">Shop Now</button>
                 </div>
@@ -88,8 +89,8 @@
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide2" class="btn btn-circle">❮</a>
             <div class="flex-col space-y-24">
-                <h1 class="text-5xl text-center text-amber-900 font-extrabold normal-case ">Exotic tastes at your <br> doorstep</h1>
-                <small class="text-s text-white gap-x-20 place-items-center">We supply highly quality organic products</small><br>
+                <h1 class="text-5xl text-center text-white font-extrabold normal-case ">Exotic tastes at your <br> doorstep</h1>
+                <small class=" text-white gap-x-20 place-items-center">We supply highly quality organic products</small><br>
                 <button class="btn btn-error text-white text-rem rounded place-items-center mx-32">Shop Now</button>
                 </div>
             
@@ -102,7 +103,7 @@
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide3" class="btn btn-circle lg">❮</a> 
             <div class="flex-col space-y-24">
-                <h1 class="text-5xl text-center text-amber-900 font-extrabold normal-case ">Exotic tastes at your <br> doorstep</h1>
+                <h1 class="text-5xl text-center text-white font-extrabold normal-case ">Exotic tastes at your <br> doorstep</h1>
                 <small class="text-s text-white gap-x-20 place-items-center">We supply highly quality organic products</small><br>
                 <button class="btn btn-error text-white text-rem rounded place-items-center mx-32">Shop Now</button>
                 </div>
@@ -114,42 +115,42 @@
     </section>
 
         
-    <section class="bg-gray-100 absolute bottom-4 left-48  gap-8 p-4">
+    <section class="bg-gray-100 rounded-3xl absolute bottom-5 left-48  gap-10 p-2  laptop:invisible">
           <div class="avatar ">
-            <div class="w-32 rounded">
+            <div class="w-48  ">
               <img src="/images/fruit1.png"/>
-               <h2>Grape</h2>
+               <p class="text-black ">Grape</p>
             </div>
           </div>
           <!-- 2 -->
           <div class="avatar">
-            <div class="w-32 rounded">
+            <div class="w-48">
               <img src="/images/fruit2.png"/>
               <h2>Orange</h2>
             </div>
           </div>
           <!-- 3 -->
           <div class="avatar">
-            <div class="w-32 rounded">
+            <div class="w-48 ">
               <img src="/images/fruit3.png"/>
               <h2>Mango</h2>
             </div>
           </div>
           <!-- 4   -->
           <div class="avatar">
-            <div class="w-32 rounded">
+            <div class="w-48 ">
               <img src="/images/fruit4.png"/>
               <h2>Strawberry</h2>
             </div>
           </div>
           <!-- 5 -->
           <div class="avatar">
-            <div class="w-32 rounded">
+            <div class="w-48 ">
               <img src="/images/fruit5.png"/>
-              <h2>Pomegranate</h2>
+              <h2 class="">Pomegranate</h2>
             </div>
           </div>
-         </section>
+      </section>
 
     <!-- banner -->
   
@@ -157,10 +158,11 @@
     <!-- Deal of the day -->
     <div>
       <div class="flex w-full pt-32">
-        <div class="grid h-40 flex-grow card bg-base-300 rounded-box place-items-center">
-          <span class="text-4xl font-bold items-start">Deal of the day</span><br>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</div>
+        <div class="grid h-48 flex-grow card bg-base-300 rounded-box place-items-center">
+          <p class="text-4xl font-bold items-start">Deal of the day</p><br><p class="inline-block">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
       
-        <div class="grid h-40 flex-grow card bg-base-300 rounded-box place-items-center">
+        <div class="grid h-48 flex-grow card bg-base-300 rounded-box place-items-center">
           <div class="flex grid-flow-col gap-5 text-center auto-cols-max">
             <div class="flex flex-col">
               <span class="countdown font-mono text-5xl">
@@ -193,7 +195,7 @@
 
     </div>
 <!-- count down part ends-->
-    <section class="flex flex-row justify-center pt-8 ">
+    <section class="flex flex-row justify-center  pt-8 ">
       <div class="card card-compact w-96 bg-base-100 shadow-xl">
         <figure><img src="/images/fruit6.png" alt="Shoes" /></figure>
         <div class="card-body items-center text-2xl">Apple
@@ -345,14 +347,14 @@
 </main>
     <!-- Meet the team section -->
     
-<section class="text-white p-24 m-20 bg-cover" style="background-image: url(./images/team.png);">
+<section class="text-white p-24 m-20 bg-cover" dekstop: style="background-image: url(./images/team.png);">
       <div>
         <h2 class="p-20 flex justify-center text-5xl font-extrabold">Meet the team section</h2>
-        <p class="flex justify-center">
+        <p class="flex justify-center items-center">
           Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
         </p>
       </div>
-      <div class="all avater basis-1/4 flex flex-row justify-evenly">
+      <div class="all avater flex flex-row justify-between tablet:flex-col ">
         <div class="avatar-1">
           <div class="w-32 rounded-full">
             <img src="/images/member1.png" />
@@ -406,6 +408,11 @@
 
     <section>
     <!-- Why Choose Us start -->
+    <div class=" pb-10 flex flex-col justify-center items-center">
+      <p class="text-5xl text-white font-bold flex justify-center ">Why Choose Us</p>
+      <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br></p> 
+      <p>Latin literature from 45 BC, making it over 2000 years old.</p>
+    </div>
     
     <div class="flex flex-col w-full lg:flex-row">
 
@@ -450,7 +457,7 @@
         
         </div> 
       <div class="lg:divider-horizontal">
-        <div class="why-img flex justify-center gap-3 ">
+        <div class="why-img flex justify-center gap-10 pb-16 ">
           <img src="./images/whychoose1.png">
         </div>
         
